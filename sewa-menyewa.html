@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>me Legal kan - Sewa-Menyewa</title>
+
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="assets/swal/sweetalert.min.css"></script>
+
+  <script type="text/javascript" src="forms\jquery-send.js"></script>
+  <script type="text/javascript" src="forms\js-support-send.js"></script>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center pe-0 justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="Logo">
+        <span class="d-none d-lg-block"><sup>ME</sup> Legal <sub>KAN</sub></span>
+      </a>
+    </div><!-- End Logo -->
+
+    <i class="bi bi-list toggle-sidebar-btn"></i>
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <i class="bx bx-home"></i> <span>Home</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link collapsed active" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-files"></i><span>Services</span><i class="bi bi-caret-down-fill ms-auto"></i>
+        </a>
+
+        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+
+          <li>
+            <a href="commanditaire-vennootschap.html">
+              <i class="bi bi-caret-right-fill"></i><span>Commanditaire Vennootschap</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="perseroan-terbatas.html">
+              <i class="bi bi-caret-right-fill"></i><span>Perseroan Terbatas</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="balik-nama.html">
+              <i class="bi bi-caret-right-fill"></i><span>Balik Nama</span>
+            </a>
+          </li>
+
+          <li class="active">
+            <a href="sewa-menyewa.html">
+              <i class="bi bi-caret-right-fill"></i><span>Sewa Menyewa</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="perjanjian-nikah.html">
+              <i class="bi bi-caret-right-fill"></i><span>Perjanjian Nikah</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="nav-social-links">
+          <a href="https://api.whatsapp.com/send/?phone=6289636850898&text=&type=phone_number&app_absent=0"><i class="bi bi-whatsapp"></i></a>
+          <a href="mailto:baruorang13@gmail.com"><i class="bx bxl-gmail"></i></a>
+          <a href="tel:089636850898"><i class="bi bi-telegram"></i></a>
+          <a href="https://t.me/KayLaa_731"><i class="bi bi-telephone"></i></a>
+        </div>
+
+      </li>
+
+      <li class="nav-heading" style="color: rgba(0, 0, 100, 0.400);">Others</li>
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="faq.html">
+          <i class="bi bi-question-circle" style="color: rgba(0, 0, 100, 0.3);"></i>
+          <span style="color: rgba(0, 0, 100, 0.3);">FAQ</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="contact.html">
+          <i class="bi bi-envelope" style="color: rgba(0, 0, 100, 0.3);"></i>
+          <span style="color: rgba(0, 0, 100, 0.3);">Contact</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="privacy-policy.html">
+          <i class="bi bi-card-list" style="color: rgba(0, 0, 100, 0.3);"></i>
+          <span style="color: rgba(0, 0, 100, 0.3);">Privacy Policy</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="term-of-service.html">
+          <i class="bi bi-card-list" style="color: rgba(0, 0, 100, 0.3);"></i>
+          <span style="color: rgba(0, 0, 100, 0.3);">Term Of Service</span>
+        </a>
+      </li>
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+   <!-- ======= Home Section ======= -->
+   <section id="home">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url(assets/img/home-background.jpg)">
+          <div class="carousel-container">
+
+            <div class="pagetitle">
+                <h1>Sewa-Menyewa</h1>
+
+                <nav>
+                  <ol class="page-info">
+                    <li class="page-info-item"><a href="index.html">Home</a></li>
+                    <li class="page-info-item"><a href="services.html">Services</a></li>
+                    <li class="page-info-item active">Sewa-Menyewa</li>
+                  </ol>
+                </nav>
+                
+              </div><!-- End Page Title -->
+              
+            <div class="container">
+              <h2>Sewa-Menyewa</h2>
+              <p style="font-size: 18px;">Sewa Menyewa adalah suatu perjanjian dengan dimana pihak yang satu mengikatkan dirinya untuk memberikan kepada pihak lainnya kenikmatan dari sesuatu barang, selama suatu waktu tertentu dan dengan pembayaran sesuatu harga, yang oleh pihak tersebut.</p>
+              <a href="#pricing" class="btn-get-started scrollto">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Home -->
+    
+  <main id="main" class="main" style="background: url(assets/img/background.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+
+    <section id="service-info" class="service-info">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-7 col-md-6 mt-4 mt-md-0" style="margin: auto;">
+            <h1>Sewa-Menyewa</h1>
+          </div>
+
+          <h3>Apa saja hal dasar yang perlu diketahui sebelum membuat CV?</h3>
+          
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <h4>1. Syarat Balik Nama</h4>
+          
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-1-1" data-bs-toggle="collapse">
+                <p>1. Penjual (Pihak Ke-1)</p>
+              </div>
+      
+              <div id="faq-1-1" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>
+                    KTP (Kartu Tanda Penduduk)
+                    <br>
+                    KK (Kartu Keluarga)
+                    <br>
+                    Buku nikah
+                </p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+                <div class="service-info-question" data-bs-target="#faq-1-2" data-bs-toggle="collapse">
+                  <p>2. Pembeli (Pihak Ke-2)</p>
+                </div>
+        
+                <div id="faq-1-2" class="collapse service-info-answer" data-bs-parent="#service-info">
+                  <p>
+                      KTP (Kartu Tanda Penduduk)
+                      <br>
+                      KK (Kartu Keluarga)
+                  </p>
+                </div>
+              </div>
+          
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <h4>2. Conditionally/Penyesuaikan</h4>
+            
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-2-1" data-bs-toggle="collapse">
+                <p>1. UU No. 40/2007 - Perseroan Terbatas / UUPT</p>
+              </div>
+      
+              <div id="faq-2-1" class="collapse service-info-answer service-info-answer" data-bs-parent="#service-info">
+                <p>UUPT ini merupakan sumber hukum utama pengaturan Perseroan Terbatas di Indonesia.</p>
+              </div>
+            </div>
+          
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-2-2" data-bs-toggle="collapse">
+                <p>2. UU No. 1/1995 - Pasar Modal</p>
+              </div>
+      
+              <div id="faq-2-2" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Mengatur mengenai syarat dan ketentuan pihak-pihak dan instrumen pasar modal.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-2-3" data-bs-toggle="collapse">
+                <p>3. UU No. 25/2007 Penanaman Modal</p>
+              </div>
+      
+              <div id="faq-2-3" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Mengatur mengenai bagaimana dan tata cara investasi penanaman modal baik oleh investor lokal atau investor asing.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-2-4" data-bs-toggle="collapse">
+                <p>4. PP No. 27/1998 - Penggabungan, Peleburan, Pengambilalihan PT</p>
+              </div>
+      
+              <div id="faq-2-4" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Mengatur mengenai bagaimana dan tata cara penggabungan, peleburan dan pengambilalihan PT.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-2-5" data-bs-toggle="collapse">
+                <p>5. PP No. 43/2011 - Tata Cara Pengajuan dan Pemakaian Nama PT</p>
+              </div>
+      
+              <div id="faq-2-5" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Mengatur bahwa nama PT lokal harus menggunakan nama dalam Bahasa Indonesia.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-2-6" data-bs-toggle="collapse">
+                <p>6. PP No. 47/2012 - Tanggung Jawab Sosial dan Lingkungan PT (CSR)</p>
+              </div>
+      
+              <div id="faq-2-6" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Bahwa PT yang menjalankan kegiatan yang berkaitan dengan sumber daya alam wajib melakukan kegiatan CSR.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-2-7" data-bs-toggle="collapse">
+                <p>7. PP No. 7/2016 - Perubahan Modal Dasar PT</p>
+              </div>
+      
+              <div id="faq-2-7" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Bahwa khusus untuk usaha dengan kriteria UMKM, maka Modal Dasar ditentukan sesuai kesepakatan. Dan 25% dari Modal Dasar tersebut harus disetor dan ditempatkan.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-2-8" data-bs-toggle="collapse">
+                <p>8. Permenkumham 14/2020 - Tata Cara Pengajuan Permohonan Pengesahan Badan Hukum dan Persetujuan Perubahan Anggaran Dasar Serta Penyampaian Pemberitahuan Perubahan Anggaran Dasar dan Perubahan Data PT</p>
+              </div>
+      
+              <div id="faq-2-8" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Mengatur mengenai tata cara permohonan pengesahan dan perubahan anggaran dasar serta dokumen yang perlu disampaikan kepada Menteri melalui sistem SABH.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" style="margin: 0 auto;">
+            <h4>3. Proses Pendirian PT (5)</h4>
+            
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-3-1" data-bs-toggle="collapse">
+                <p>1. Pendiri PT</p>
+              </div>
+      
+              <div id="faq-3-1" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>2 orang atau lebih. Dimana pengertian "orang" sesuai dengan Penjelasan UUPT adalah orang perseorangan, baik warga negara Indonesia maupun asing atau badan hukum Indonesia atau asing.</p>
+              </div>
+            </div>
+          
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-3-2" data-bs-toggle="collapse">
+                <p>2. Notaris</p>
+              </div>
+      
+              <div id="faq-3-2" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Notaris adalah pejabat umum yang telah ditunjuk oleh pemerintah dalam hal pembuatan akta otentik atau suatu perbuatan hukum yang diatur di dalam perundang-undangan. Bentuk notaris berbeda-beda tergantung pada sistem hukum.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-3-3" data-bs-toggle="collapse">
+                <p>3. Menteri</p>
+              </div>
+      
+              <div id="faq-3-3" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Menteri Negara yang selanjutnya disebut Menteri adalah pembantu Presiden yang memimpin Kementerian. 3. Urusan Pemerintahan adalah setiap urusan sebagaimana dimaksud dalam ketentuan Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-3-4" data-bs-toggle="collapse">
+                <p>4. SK Menteri</p>
+              </div>
+      
+              <div id="faq-3-4" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Peraturan Menteri adalah peraturan yang ditetapkan oleh menteri berdasarkan materi muatan dalam rangka penyelenggaraan urusan tertentu dalam pemerintahan.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-3-5" data-bs-toggle="collapse">
+                <p>5. NPWP</p>
+              </div>
+      
+              <div id="faq-3-5" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p>Nomor Pokok Wajib Pajak biasa disingkat dengan NPWP adalah nomor yang diberikan kepada wajib pajak sebagai newslettera dalam administrasi perpajakan yang dipergunakan sebagai tanda pengenal diri atau identitas wajib pajak dalam melaksanakan hak dan kewajiban perpajakannya.</p>
+              </div>
+            </div>
+
+            <div class="service-info-cover">
+              <div class="service-info-question" data-bs-target="#faq-3-6" data-bs-toggle="collapse">
+                <p>6. NIB & Izin Usaha</p>
+              </div>
+      
+              <div id="faq-3-6" class="collapse service-info-answer" data-bs-parent="#service-info">
+                <p><i class="bi bi-caret-right-fill" style="margin-right: 5px;"></i><strong style="font-size: 110%;">Nomor Induk Berusaha (NIB)</strong> merupakan izin usaha yang diterbitkan lembaga OSS. OSS berada di bawah Badan Koordinasi Penanaman Modal. NIB berfungsi sebagai Izin Usaha dan Izin Komersial atau Operasional sesuai dengan bidang usahanya.</p>
+                <p><i class="bi bi-caret-right-fill" style="margin-right: 5px;"></i><strong style="font-size: 110%;">Izin Usaha</strong> adalah suatu bentuk izin yang diberikan oleh pemerintah kepada pemilik bisnis untuk menjalankan usahanya secara legal. Dengan memiliki izin usaha, konsumen maupun pihak lain menganggap bahwa bisnismu sah secara hukum.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="row">
+          <h4>Pricing Box</h4>
+
+          <!-- Start CV Pricing -->
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box featured">
+              <p>Diskon 50%</p>
+              <h3>PT Kecil</h3>
+              <h4><sup>IDR</sup>1.349<span>.500</span></h4>
+
+              <ul>
+                <i class="bi bi-caret-right-fill"></i><li>Layanan Seluruh Indonesia</li>
+                <i class="bi bi-caret-right-fill"></i><li>Pantau Progress Secara Online</li>
+                <i class="bi bi-caret-right-fill"></i><li>AKTA Notaris & SK KEMENHUMHAM</li>
+                <i class="bi bi-caret-right-fill"></i><li>NPWP, SKT & EFIN Pajak</li>
+                <i class="bi bi-caret-right-fill"></i><li>Akun OSS, NIB & Ijin Usaha</li>
+                <i class="bi bi-caret-right-fill"></i><li>Pelaporan Keuangan 3 Bulan</li>
+                <i class="bi bi-caret-right-fill"></i><li>Rekening Bank<br>(BCA, BRI, UOB, MANDIRI, etc)</li>
+              </ul>
+
+              <div class="pricing-bonus">
+                <h4><s>Bonus</s></h4>
+
+                <ul>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Business Workshop</s></li>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Business Coaching</s></li>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Officenow University</s></li>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Officenow Business Incubator (OBI) Program</s></li>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Online Auto Pilot System/ERP System</s></li>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Business Checkup Review Setiap 6 Bulan</s></li>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Kalendar Konten Social Media Untuk 1 Tahun Siap Pakai</s></li>
+                </ul>
+              </div>
+
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box">
+              <h3>PT Kecil</h3>
+              <h4><sup>IDR</sup>2.699<span>.000</span></h4>
+
+              <ul>
+                <i class="bi bi-caret-right-fill"></i><li>Layanan Seluruh Indonesia</li>
+                <i class="bi bi-caret-right-fill"></i><li>Pantau Progress Secara Online</li>
+                <i class="bi bi-caret-right-fill"></i><li>AKTA Notaris & SK KEMENHUMHAM</li>
+                <i class="bi bi-caret-right-fill"></i><li>NPWP, SKT & EFIN Pajak</li>
+                <i class="bi bi-caret-right-fill"></i><li>Akun OSS, NIB & Ijin Usaha</li>
+                <i class="bi bi-caret-right-fill"></i><li>Pelaporan Keuangan 3 Bulan</li>
+                <i class="bi bi-caret-right-fill"></i><li>Rekening Bank<br>(BCA, BRI, UOB, MANDIRI, etc)</li>
+              </ul>
+
+              <div class="pricing-bonus">
+                <h4>Bonus</h4>
+
+                <ul>
+                  <i class="bi bi-caret-right-fill"></i><li>Business Workshop</li>
+                  <i class="bi bi-caret-right-fill"></i><li>Business Coaching</li>
+                  <i class="bi bi-caret-right-fill"></i><li>Officenow University</li>
+                  <i class="bi bi-caret-right-fill"></i><li>Officenow Business Incubator (OBI) Program</li>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Online Auto Pilot System/ERP System</s></li>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Business Checkup Review Setiap 6 Bulan</s></li>
+                  <i class="bi bi-exclamation-diamond-fill"></i><li><s>Kalendar Konten Social Media Untuk 1 Tahun Siap Pakai</s></li>
+                </ul>
+              </div>
+
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box advanced">
+              <p>Exclusive</p>
+              <h3>PT Kecil</h3>
+              <h4><sup>IDR</sup>4.048<span>.500</span></h4>
+
+              <ul>
+                <i class="bi bi-caret-right-fill"></i><li>Layanan Seluruh Indonesia</li>
+                <i class="bi bi-caret-right-fill"></i><li>Pantau Progress Secara Online</li>
+                <i class="bi bi-caret-right-fill"></i><li>AKTA Notaris & SK KEMENHUMHAM</li>
+                <i class="bi bi-caret-right-fill"></i><li>NPWP, SKT & EFIN Pajak</li>
+                <i class="bi bi-caret-right-fill"></i><li>Akun OSS, NIB & Ijin Usaha</li>
+                <i class="bi bi-caret-right-fill"></i><li>Pelaporan Keuangan 3 Bulan</li>
+                <i class="bi bi-caret-right-fill"></i><li>Rekening Bank<br>(BCA, BRI, UOB, MANDIRI, etc)</li>
+              </ul>
+
+              <div class="pricing-bonus">
+                <h4>Bonus</h4>
+
+                <ul>
+                  <i class="bi bi-caret-right-fill"></i><li>Business Workshop</li>
+                  <i class="bi bi-caret-right-fill"></i><li>Business Coaching</li>
+                  <i class="bi bi-caret-right-fill"></i><li>Officenow University</li>
+                  <i class="bi bi-caret-right-fill"></i><li>Officenow Business Incubator (OBI) Program</li>
+                  <i class="bi bi-caret-right-fill"></i><li>Online Auto Pilot System/ERP System</li>
+                  <i class="bi bi-caret-right-fill"></i><li>Business Checkup Review Setiap 6 Bulan</li>
+                  <i class="bi bi-caret-right-fill"></i><li>Kalendar Konten Social Media Untuk 1 Tahun Siap Pakai</li>
+                </ul>
+              </div>
+
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <div style="border: 1px solid rgba(0, 0, 200, 0.20); margin: 30px 30px;"></div>
+    
+  </main><!-- End #main -->
+
+  <!-- Start F.A.Q Section -->
+  <section id="faq" class="faq">
+    <h4>Frequently Asked Questions</h4>
+    
+    <div class="faq-background">
+
+      <div class="faq-cover">
+        <div class="faq-question" data-bs-target="#faq-1" data-bs-toggle="collapse">
+          <i class="bi bi-question-circle"></i><p>Apa itu Sewa-Menyewa?</p>
+          <i class="bi bi-caret-down-fill ms-auto"></i>
+        </div>
+
+        <div id="faq-1" class="collapse faq-answer" data-bs-parent="#faq">
+          <p>Sewa Menyewa adalah suatu perjanjian dengan dimana pihak yang satu mengikatkan dirinya untuk memberikan kepada pihak lainnya kenikmatan dari sesuatu barang, selama suatu waktu tertentu dan dengan pembayaran sesuatu harga, yang oleh pihak tersebut.</p>
+        </div>
+      </div>
+      
+      <div class="faq-cover">
+        <div class="faq-question" data-bs-target="#faq-2" data-bs-toggle="collapse">
+          <i class="bi bi-question-circle"></i><p>Apakah suami istri bisa mendirikan PT?</p>
+          <i class="bi bi-caret-down-fill ms-auto"></i>
+        </div>
+
+        <div id="faq-2" class="collapse faq-answer" data-bs-parent="#faq">
+          <p>Jika suami istri memiliki <strong>Harta Bersama</strong>,mereka haruslah mengajak pihak lain untuk menjadi <strong>Pemegang Saham</strong> sehingga syarat pendirian PT sebagaimana dimaksud dalam <strong>Pasal 7 ayat (1) UU</strong> PT dapat terpenuhi (2 (dua) orang).</p>
+        </div>
+      </div>
+
+      <div class="faq-cover">
+        <div class="faq-question" data-bs-target="#faq-3" data-bs-toggle="collapse">
+          <i class="bi bi-question-circle"></i><p>Berapa lama masa berlaku PT?</p>
+          <i class="bi bi-caret-down-fill ms-auto"></i>
+        </div>
+
+        <div id="faq-3" class="collapse faq-answer" data-bs-parent="#faq">
+          <p>Berlaku <strong>seumur hidup</strong>, namun untuk <strong>pengurus perusahaan</strong> maximal hanya <strong>5 tahun</strong>. Hal ini membutuhkan untuk diperbaharui dan disahkan ulang setidaknya setiap 5 tahun sekali.<br>Setiap perubahan yang dilakukan di <strong>Akta memerlukan SK yang baru untuk mengesahkan perubahan yang dibuat.</strong></p>
+        </div>
+      </div>
+
+      <div class="faq-cover">
+        <div class="faq-question" data-bs-target="#faq-4" data-bs-toggle="collapse">
+          <i class="bi bi-question-circle"></i><p>Apakah modal PT bisa ditarik?</p>
+          <i class="bi bi-caret-down-fill ms-auto"></i>
+        </div>
+
+        <div id="faq-4" class="collapse faq-answer" data-bs-parent="#faq">
+          <p>Pengurangan modal PT dapat <strong>ditarikan</strong> kembali. Adapun penguasaan atas saham yang dibeli kembali ini boleh dilakukan <strong>paling lama 3 tahun</strong></p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6 footer-info">
+            <h3><sup style="font-size: 50%; color: rgb(0, 0, 100);">ME</sup><strong style="color: rgb(0, 0, 100);"> Legal </strong><sub style="font-size: 50%; color: rgb(0, 0, 100);">KAN</sub></h3>
+            <p>Akan selalu membuat kebutuhan Legalitas menjadi lebih mudah dengan harga yang terjangkau untuk memulai bisnis anda.</p>
+            <br>
+            <p>Akan selalu menjadi pilihan yang tepat dan tentunya Aman, Murah dan Terpercaya.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h4>About Us</h4>
+            <p>
+              Kota Malang, Jawa Timur, Indonesia.
+              <br><br>
+              <strong>Phone:</strong> <a href="tel:089636850898">+62 896 3685 0898</a>
+              <br>
+              <strong>Email:</strong> <a href="mailto:baruorang13@gmail.com">baruorang13@gmail.com</a>
+              <br>
+              <strong>Whatsapp:</strong> <a href="https://api.whatsapp.com/send/?phone=6289636850898&text=&type=phone_number&app_absent=0">+62 896 3685 0898</a>
+              <br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            
+            <ul>
+              <li><i class="bx bx-home"></i><a href="index.html">Home</a></li>
+              <li><i class="bi bi-files"></i><a href="services.html">Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Others</h4>
+            
+            <ul>
+              <li><i class="bi bi-question-circle"></i><a href="faq.html">FAQ</a></li>
+              <li><i class="bi bi-envelope"></i><a href="contact.html">Contact</a></li>
+              <li><i class="bi bi-card-list"></i><a href="privacy-police.html">Privacy Policy</a></li>
+              <li><i class="bi bi-card-list"></i><a href="term-of-service.html">Term Of Service</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter">
+            <h4>Join Newsletter</h4>
+            
+            <div class="newsletter-send">
+              <form action="https://formsubmit.co/baruorang13@gmail.com" method="POST">
+                <input type="email" name="For&nbsp;Newsletter" placeholder="youremail@melegalkan.com" id="newsletter" required/>
+                <button type="submit">Send</button>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; 2023 <strong><sup style="font-size: 50%; color: rgb(0, 0, 100);">ME</sup><strong style="color: rgb(0, 0, 100);"> Legal </strong><sub style="font-size: 50%; color: rgb(0, 0, 100);">KAN</sub></strong> - Memenuhi kebutuhan Legalitas seluruh masyarakat Indonesia.
+      </div>
+    </div>
+
+    <div style="padding: 5px;"></div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="forms/newsletter-send.js"></script>
+  <script src="forms/contact-send.js"></script>
+    <script src="assets/swal/sweetalert2.all.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
